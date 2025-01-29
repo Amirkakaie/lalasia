@@ -4,9 +4,92 @@
     box-sizing: border-box;
     font-family: "Inter";
 }
-
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 button{
     font-family: "Inter";
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom:15px;
+}
+header .logo{
+    display: flex;
+    gap: 20px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+header .cart{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header .cart img{
+    width: 20px;
+}
+
+/* hero */
+
+.hero{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.hero h2{
+    font-size: 48px;
+}
+.hero p{
+    max-width: 600px;
+    text-align: center;
+    color: #AFADB5;
+}
+
+.hero .im{
+    position: absolute;
+    left:240px;
+    width: 200px;
+    top: 250px;
+}
+
+.search form{
+    display: flex;
+        background-color: white;
+        width: 450px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+}
+.search input{
+    background-color: transparent;
+    border: none;
+
+}
+.search input:focus{
+    border: none;
+}
+.search button{
+    background-color: #518581;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+}
+.search img{
+    width: 22px;
+}
+
+
 
 
